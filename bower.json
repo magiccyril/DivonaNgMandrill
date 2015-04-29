@@ -1,7 +1,7 @@
 {
   "name": "divona-ngMandrill",
   "version": "0.0.1",
-  "main": "./mandrill.js",
+  "main": "mandrill.js",
   "ignore": [],
   "dependencies": {
     "angular": "1.3.15"
