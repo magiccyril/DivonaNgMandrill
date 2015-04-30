@@ -27,7 +27,7 @@
       var ping = function () {
         return $http({
           method: 'POST',
-          url: MANDRILL_API_URL + '/users/ping2.json',
+          url: MANDRILL_API_URL + 'users/ping2.json',
           params: {
             'key': MANDRILL_APIKEY
           }
