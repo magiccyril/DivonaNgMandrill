@@ -43,7 +43,7 @@
        * @returns Boolean
        */
       var send = function (message) {
-        return $http.post(MANDRILL_API_URL + '/messages/send.json', {
+        return $http.post(MANDRILL_API_URL + 'messages/send.json', {
           'key': MANDRILL_APIKEY,
           'message': message
         }).then(function (response) {
